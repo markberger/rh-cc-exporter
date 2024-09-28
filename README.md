@@ -1,5 +1,5 @@
 # rh-cc-exporter
-Export transactions from the RH [Gold Card](https://robinhood.com/creditcard/)
+Export transactions from the Robinhood [credit card](https://robinhood.com/creditcard/)
 to a [QIF file](https://en.wikipedia.org/wiki/Quicken_Interchange_Format) for easy
 use with budgetting apps such as [YNAB](https://www.ynab.com/).
 
@@ -21,7 +21,7 @@ $ pyenv activate rh-cc-exporter
 (rh-cc-exporter)$ pip install -r requirements.txt
 ```
 
-Now run the script by providing a date in YYYY-MM-DD format. This will include all
+Now run the script by providing a date in `YYYY-MM-DD` format. This will include all
 transactions greater than or equal to this day. For example, to get all transactions
 from Sept 1st, 2024 to today inclusively, input 2024-09-01.
 
@@ -31,8 +31,8 @@ mfa code.
 ```bash
 (rh-cc-exporter)$ python rh-cc-exporter.py 2024-09-01
 username: my_email@gmail.com
-password: input_is_hidden_when_tying_here
-mfa code: input_is_hidden_when_tying_here
+password: input_is_hidden_when_typing_here
+mfa code: input_is_hidden_when_typing_here
 
 ```
 
