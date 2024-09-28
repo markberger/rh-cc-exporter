@@ -1,0 +1,3 @@
+requests
+quiffen
+numpy<2
