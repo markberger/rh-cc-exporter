@@ -87,8 +87,8 @@ def fetch_auth_token():
 
     headers = {
         "Content-Type": "application/json",
-        "User-Agent": "rhcardapp/1.35.0 CFNetwork/1498.700.2 Darwin/23.6.0",
-        "x-x1-client": "mobile-app-rh@1.35.0",
+        "User-Agent": "Robinhood Credit Card/1.50.3 (iOS 18.1.1;)",
+        "x-x1-client": "mobile-app-rh@1.50.3",
     }
     body = {
         "challenge_type": "sms",
